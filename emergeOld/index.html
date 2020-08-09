@@ -1,0 +1,343 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>E-Merge 18</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:url"                content="http://emerge18.org" />
+<meta property="og:type"               content="website" />
+<meta property="og:title"              content="Welcome to the Festival of Circuits" />
+<meta property="og:description"        content="Ready to merge to Emerge ?" />
+<meta property="og:image"              content="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jInvertScroll/0.8.3/css/jInvertScroll.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="static/main.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jInvertScroll/0.8.3/js/jquery.jInvertScroll.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.6/lib/typed.js"></script>
+  <script src="static/autoscroll.js" type="text/javascript"></script>
+  <script src="static/main.js" type="text/javascript"></script>
+  <script src="static/quotes.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="mobile-hide">
+<div id="main_header" class="fix-top">
+<div data-target="home" class="menu-item"><strong>Home</strong></div>
+<div data-target="about" class="menu-item"><strong>About</strong></div>
+<div data-target="hackathon" class="menu-item"><strong>Hackathon</strong></div>
+<div data-target="events" class="menu-item"><strong>Events</strong></div>
+<div data-target="registration" data-target="home" class="menu-item"><strong>Registration</strong></div>
+<div data-target="contact" class="menu-item"><strong>Contact</strong></div>
+</div>
+<div id="background-layer">
+  <!--<div id="particles-js"></div>
+  <script src="static/particles.js"></script>
+  <script src="static/app.js"></script>-->
+</div>
+<div id="emblem" >
+<img src="static/emblem.png" height="100px" width="100px" />
+</div>
+<div id="top-layer">
+<table id="container-table"  cell-spacing="0" cell-padding="0">
+<tr id="container-table-row">
+<!-- All the main content goes here -->
+<td class="container-table-column">
+<div id="page-home" class="container-table-column-div container row" >
+<div id="department" class="col s12 center white-text flow-text"  style="font-size:20px">Department of Electronics and Communication Engineering, JNTUA College of Engineering Anantapuramu<br>Presents</div>
+<div class="col l8 s12">
+<div class="main-logo col s12"><img src="static/EmergeTitleLogoe.png" class="main-logo"/></div>
+<div class="main-caption col s12 white-text right">...merge to emerge</div>
+<div class="main-event-date s12 white-text" id="date"></div>
+<div class="container row" id="associations"><div id="typed" class="white-text right" style="display:block"></div></div>
+</div>
+<div class="quote-container col l4 s12 valign-wrapper" style="position:relative;top:-20vh;">
+<div class="row">
+<div class="col s12">
+<div class="">
+<p id="quote-text" class="white-text flow-text" style="font-size:20px">Technology should do the hard work so that people can do things that make them the happiest in life.<br><strong>-<i>Larry Page, Founder of Google</i></strong>
+</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</td>
+<td class="container-table-column">
+<div class="container-table-column-div container"  id="page-about" >
+  <p class="white-text  narrow" style="text-align:justify">
+    E-merge'18 is a four day student technical symposium organized by the Department of Electronics and Communication Engineering, JNTUA College of Engineering Anantapuramu.
+    Started in the year 2003, the festival of circuits have been successful in leading a path towards creative technology.
+  </p>
+  <br>
+  <p class="white-text narrow" style="text-align:justify">
+    This year, we are back with double the energy, double the fun and a lot more to bring out the innovator in you.
+    Participate in the four day fest to lay down a legacy of technical and cultural activities.
+  </p>
+</div>
+</td>
+<td class="container-table-column">
+<div id="page-hackathon" class="container-table-column-div container row" >
+<!--  <div class="hackathon-logo col s12 center"><img src="static/hackathonLogow.png"></div>-->
+  <div class="hackathon-text col s12">
+  <h5 class="white-text"><i>What is a hackathon ?</i></h5>
+<p class="white-text narrow info-text" style="text-align:justify"><br>
+  A Hackathon is nothing but a marathon of building smart innovative ideas into reality.
+  It is a unique digital product development platform to identify new technological developments for solving problems faced in our day-to-day life.
+</p>
+<h5 class="white-text"><i>How it works</i></h5>
+<p class=" white-text narrow info-text" style="text-align:justify">
+  A two-day introduction workshop(Boot-camp) on "Internet Of Things" (using IBM Watson platform and ESP8266 module) will be conducted for the participants by experts.
+ On the Third day (March 11th) , a 24 hour hackathon is conducted for developing your ideas under expert guidance (Breathe in... ;).
+ The top performing teams will be awarded with amazing prizes and Internship opportunities.
+</p>
+<h5 class="white-text"><i>What to do ?</i></h5>
+<p class="narrow white-text info-text" style="text-align:justify">
+  <ul class="white-text narrow">
+  <li>Stage1 - The participants should form a team(of 4 or 5) and each team have to submit a idea of their model using the given link.....
+  </li><li>Stage2 - After reviewing your ideas, we will notify the selected participants, about the further payment proceedings through email or SMS.
+  </li><li>Stage3 - Participation fee of 600/- (per head) should be paid through the payment link.</li>
+</ul>
+  </p>
+  <p class="narrow white-text info-text" style="text-align:justify">Here are some example domains for your ideas : 1. Smart Home, 2. Smart Wearebles, 3. Smart City, 4. Smart Retial, 5. Health Care, 6. Industrial IOT, 7. Smart Vehicles,<br> 8. Agriculture and many more.</p>
+  <p class="narrow white-text info-text" style="text-align:centre;font-size:18px">For any further assistance, feel free to contact us.</p>
+
+</div>
+  <div class="center"><a class="center waves-effect waves-light btn no-uppercase" href="http://www.iotgyan.com/event/hackathon-jntu-anantapur" target="_blank">Click here to Submit your idea</a></div>
+</div>
+</td>
+<td class="container-table-column">
+<div  id="page-events" class="container-table-column-div container row" style="padding-top:10vh" >
+<div id="event-poster" class=" event-box col l3 s12">
+<img src="static/ppt1.png" height="100" style="display:block;margin:auto">
+<h5 class="white-text center">Poster Presentation</h5>
+</div>
+<div id="event-quiz" class=" event-box col l3 s12" >
+  <img src="static/brain_logo.png" height="100" style="display:block;margin:auto">
+  <h5 class="white-text center">Quiz Competetion</h5>
+</div>
+<div id="event-photo" class=" event-box col l3 s12">
+  <img src="static/camera.png" height="100" style="display:block;margin:auto">
+  <h5 class="white-text center">Photography</h5></div>
+<div id="event-reverse" class=" event-box col l3 s12" >
+  <img src="static/reverse.png" height="100" style="display:block;margin:auto">
+  <h5 class="white-text center">Reverse Filming</h5></div>
+<div id="event-spot" class=" event-box col l3 s12">
+  <img src="static/spot.png" height="100" style="display:block;margin:auto">
+  <h5 class="white-text center">Spot Events</h5></div>
+<div id="event-photo" class=" event-box col l3 s12">
+<img src="static/culture.png" height="100" style="display:block;margin:auto">
+<h5 class="white-text center">Culturals</h5></div>
+  <div id="event-modal-poster" class="modal">
+    <div class="modal-content white">
+      <h5>Poster Presentation</h5>
+      <p>Poster Presentation Presentation posterPoster Presentation Presentation posterPoster Presentation Presentation posterPoster Presentation Presentation posterPoster Presentation Presentation posterPoster Presentation Presentation posterPoster Presentation Presentation posterPoster Presentation Presentation poster</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+    </div>
+</div>
+</td>
+<td class="container-table-column">
+<div id="page-registration" class="container-table-column-div container" style="padding-top:30vh;" >
+  <p class="white-text center">Registrations are not open yet, Stay tuned...</p>
+</div>
+</td>
+<td class="container-table-column">
+<div id="page-contact" class="container-table-column-div container row" style="padding:20vh" >
+  <div class="col l4 s12">
+    <div class="card horizontal" style="background:rgba(255,255,255,0.0);margin:20px">
+      <div class="card-image valign-wrapper" >
+        <img src="static/contact_vihaari.jpg" height="100px" width="100px" style="border-radius:50%;">
+      </div>
+      <div class="card-stacked valign-wrapper">
+          <p  class="left-align" style="font-size:20px">Vihaari Varma <br>8520926489<br><i class="narrow">Event Coordinator</i></p>
+      </div>
+    </div>
+  </div>
+  <div class="col l4 s12">
+    <div class="card horizontal" style="background:rgba(255,255,255,0.0);margin:20px">
+      <div class="card-image valign-wrapper" >
+        <img src="static/contact_ajay.jpg" height="100px" width="100px" style="border-radius:50%;">
+      </div>
+      <div class="card-stacked valign-wrapper">
+          <p  class="left-align" style="font-size:20px">AJay<br>8520926489<br><i class="narrow">Public Relations</i></p>
+      </div>
+    </div>
+  </div>
+  <div class="col l4 s12">
+    <div class="card horizontal" style="background:rgba(255,255,255,0.0);margin:20px">
+      <div class="card-image valign-wrapper" >
+        <img src="static/contact_srinu.jpg" height="100px" width="100px" style="border-radius:50%;">
+      </div>
+      <div class="card-stacked valign-wrapper">
+          <p  class="left-align" style="font-size:20px">Sai Srinivas<br>8520926489<br><i class="narrow">Public Relations</i></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+</td>
+<!--End of main content-->
+
+</tr>
+</table>
+</div>
+</div>
+<div class="mobile-show">
+<div data-activates="slide-out" id="button-collapse" class="mobile_header valign-wrapper">
+  <a style="color:white;padding:20px"><i class="material-icons" >menu</i></a>
+<p class="white-text center" id="mobile-header-title">Home</p>
+</div>
+<ul id="slide-out" class="side-nav">
+  <li><a class="waves-effect mobile-menu-item" data-target="home" href="#!">Home</a></li>
+  <li><a class="waves-effect mobile-menu-item" data-target="about"  href="#!">About</a></li>
+  <li><a class="waves-effect mobile-menu-item" data-target="hackathon" data-target="home"  href="#!">Hackathon</a></li>
+  <li><a class="waves-effect mobile-menu-item" data-target="events"  href="#!">Events</a></li>
+  <li><a class="waves-effect mobile-menu-item" data-target="registration" href="#!">Registrations</a></li>
+  <li><a class="waves-effect mobile-menu-item" data-target="contact"  href="#!">Contact</a></li>
+</ul>
+  <div id="mobile-page-home" class="container-table-column-div container row mobile-home" >
+    <div id="mobile-department" class="col s12 center white-text flow-text"  style="font-size:12px;position:relative;bottom:5vh">Department of Electronics and Communication Engineering, <br>JNTUA College of Engineering Anantapuramu<br>Presents</div>
+    <div class="col l8 s12">
+    <div class="mobile-logo col s12"><img src="static/EmergeTitleLogoe.png" class="main-logo"/></div>
+    <div class="mobile-caption col s12 white-text right">...merge to emerge</div>
+    <div class="mobile-event-date s12 white-text" id="date">9th March - 12th March, 2018</div>
+    </div>
+    <div class="quote-container col l4 s12 valign-wrapper" style="padding-top:20vh;height:40vh">
+    <div class="row">
+    <div class="col s12">
+    <div>
+    <p id="mobile-quote-text" class="white-text flow-text" style="font-size:20px">Technology should do the hard work so that people can do things that make them the happiest in life.<br><strong>-<i>Larry Page, Founder of Google</i></strong>
+    </p>
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+
+  <div id="mobile-page-about" class="container-table-column-div container " >
+    <p class="white-text narrow mobile-about" style="text-align:justify">
+      E-merge'18 is a four day student technical symposium organized by the Department of Electronics and Communication Engineering, JNTUA College of Engineering Anantapuramu.
+      Started in the year 2003, the festival of circuits have been successful in leading a path towards creative technology.
+    </p>
+    <br>
+    <p class="white-text narrow mobile-about" style="text-align:justify">
+      This year, we are back with double the energy, double the fun and a lot more to bring out the innovator in you.
+      Participate in the four day fest to lay down a legacy of technical and cultural activities.
+    </p>
+  </div>
+
+  <div id="mobile-page-hackathon" class="container-table-column-div container row" >
+    <div class="hackathon-text col s12">
+    <h5 class="white-text"><i>What is a hackathon ?</i></h5>
+  <p class="white-text narrow info-text" style="text-align:justify"><br>
+    A Hackathon is nothing but a marathon of building smart innovative ideas into reality.
+    It is a unique digital product development platform to identify new technological developments for solving problems faced in our day-to-day life.
+  </p>
+  <h5 class="white-text"><i>How it works</i></h5>
+  <p class=" white-text narrow info-text" style="text-align:justify">
+    A two-day introduction workshop(Boot-camp) on "Internet Of Things" (using IBM Watson platform and ESP8266 module) will be conducted for the participants(Breathe in... ;) by experts.
+   On the Third day (March 11th) , a 24 hour hackathon 24 hour hackathon is conducted for developing your ideas under expert guidance.
+   The top performing teams will be awarded with amazing prizes and Internship opportunities.
+  </p>
+  <h5 class="white-text"><i>What to do ?</i></h5>
+  <p class="narrow white-text info-text" style="text-align:justify">
+    <ul class="white-text narrow">
+    <li>Stage1 - The participants should form a team(of 4 or 5) and each team have to submit a idea of their model using the given link.....
+    </li><li>Stage2 - After reviewing your ideas, we will notify the selected participants, about the further payment proceedings through email or SMS.
+    </li><li>Stage3 - Participation fee of 600/- (per head) should be paid through the payment link.</li>
+  </ul>
+    </p>
+    <p class="narrow white-text info-text" style="text-align:justify">Here are some example domains for your ideas : 1. Smart Home, 2. Smart Wearebles, 3. Smart City, 4. Smart Retial, 5. Health Care, 6. Industrial IOT, 7. Smart Vehicles,<br> 8. Agriculture and many more.</p>
+    <p class="narrow white-text info-text" style="text-align:centre;font-size:18px">For any further assistance, feel free to contact us.</p>
+  </div>
+    <div class="center"><a class="center waves-effect waves-light btn no-uppercase" href="http://www.iotgyan.com/event/hackathon-jntu-anantapur" target="_blank">Click here to Submit Idea</a></div>
+  </div>
+
+  <div  id="mobile-page-events" class="container-table-column-div container" >
+    <div id="event-poster" class=" event-box col l3 s12">
+    <img src="static/ppt1.png" height="100" style="display:block;margin:auto">
+    <h5 class="white-text center">Poster Presentation</h5>
+    </div>
+    <div id="event-quiz" class="event-box col l3 s12" >
+      <img src="static/brain_logo.png" height="100" style="display:block;margin:auto">
+      <h5 class="white-text center">Quiz Competetion</h5>
+    </div>
+    <div id="event-photo" class=" event-box col l3 s12">
+      <img src="static/camera.png" height="100" style="display:block;margin:auto">
+      <h5 class="white-text center">Photography</h5></div>
+    <div id="event-reverse" class=" event-box col l3 s12" >
+      <img src="static/reverse.png" height="100" style="display:block;margin:auto">
+      <h5 class="white-text center">Reverse Filming</h5></div>
+    <div id="event-spot" class=" event-box col l3 s12">
+      <img src="static/spot.png" height="100" style="display:block;margin:auto">
+      <h5 class="white-text center">Spot Events</h5></div>
+    <div id="event-photo" class=" event-box col l3 s12">
+    <img src="static/culture.png" height="100" style="display:block;margin:auto">
+    <h5 class="white-text center">Culturals</h5></div>
+  </div>
+
+  <div id="mobile-page-registration" class="container-table-column-div container valign-wrapper" >
+    <p class="white-text">
+      Registrations are not open yet, Stay tuned...
+    </p>
+  </div>
+
+<div id="mobile-page-contact" class="container-table-column-div container row" >
+  <div class="col l4 s12">
+    <div class="card horizontal" style="background:rgba(255,255,255,0.0);margin:20px">
+      <div class="card-image valign-wrapper" >
+        <img src="static/contact_vihaari.jpg" height="100px" width="100px" style="border-radius:50%;">
+      </div>
+      <div class="card-stacked valign-wrapper">
+          <p  class="left-align" style="font-size:20px">Vihaari Varma <br>8520926489<br><i class="narrow">Event Coordinator</i></p>
+      </div>
+    </div>
+  </div>
+  <div class="col l4 s12">
+    <div class="card horizontal" style="background:rgba(255,255,255,0.0);margin:20px">
+      <div class="card-image valign-wrapper" >
+        <img src="static/contact_ajay.jpg" height="100px" width="100px" style="border-radius:50%;">
+      </div>
+      <div class="card-stacked valign-wrapper">
+          <p  class="left-align" style="font-size:20px">AJay<br>8520926489<br><i class="narrow">Public Relations</i></p>
+      </div>
+    </div>
+  </div>
+  <div class="col l4 s12">
+    <div class="card horizontal" style="background:rgba(255,255,255,0.0);margin:20px">
+      <div class="card-image valign-wrapper" >
+        <img src="static/contact_srinu.jpg" height="100px" width="100px" style="border-radius:50%;">
+      </div>
+      <div class="card-stacked valign-wrapper">
+          <p  class="left-align" style="font-size:20px">Sai Srinivas<br>8520926489<br><i class="narrow">Public Relations</i></p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+</div>
+</body>
+</html>

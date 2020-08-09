@@ -1,0 +1,13 @@
+<i>What is a hackathon ?</i>
+
+A Hackathon is nothing but a marathon of building smart innovative ideas into reality.
+It is a unique digital product development platform to identify new technological developments for solving problems faced in our day-to-day life.
+
+<i>How it works here ?</i>
+     A two-day introduction workshop(Boot-camp) on "Internet Of Things" (using IBM Watson platform and ESP8266 module) will be conducted for the participants(Breathe in... ;) by experts.
+  On the Third day (March 11th) , a 24 hour hackathon 24 hour hackathon is conducted for developing your ideas under expert guidance.
+   The top performing teams will be awarded with amazing prizes and Internship opportunities.
+
+Stage1 - The participants should form a team(of 4 or 5) and each team have to submit a idea of their model using the given link.....
+Stage2 - After reviewing your ideas, we will notify the selected participants, about the further payment proceedings through email or SMS.
+Stage3 - Participation fee of 600/- (per head) should be paid through the payment link.
